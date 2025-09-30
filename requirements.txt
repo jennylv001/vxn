@@ -1,0 +1,15 @@
+# GPU inference
+onnxruntime-gpu==1.18.1
+# Core scientific/audio stack suitable for RVC-style inference
+numpy==1.26.4
+numba==0.59.1
+soundfile==0.12.1
+librosa==0.10.2.post1
+pyworld==0.3.4
+# Vision/webcam utilities
+opencv-python-headless==4.10.0.84
+# Service layer for an inference API
+fastapi==0.114.2
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+PyYAML==6.0.2
